@@ -16,6 +16,3 @@ This script was produced to generate flowcharts, originally inspired by the flow
 
 #### method_flowchart.py
 This script uses tk_flow to produce the flowchart
-
-## Other Folder (z_other)
-This folder contains any other files relavent to this project which do not fit into any of the alternative folder categories.
