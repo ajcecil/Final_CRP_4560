@@ -1,10 +1,15 @@
 # Project Directory Overview
 ##Installation
 When dowloading this project/repo the file structure should be maintained as:
-main
-|--data
-|--drone2map
-|-- images
+
+.
+├───data
+├───drone2map
+├───images
+├───pits
+├───pro_project
+├───scripts
+└───z_other
 
 
 
