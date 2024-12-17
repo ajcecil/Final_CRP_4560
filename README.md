@@ -1,17 +1,12 @@
 # Project Directory Overview
-## Data Folder (data)
-This folder contains and data tables or information used to produce the maps or used to add detail to the produced maps
-[Data in this repo](documentation/DATA.md)
+## [Accessing data sets in this repo](documentation/DATA.md)
 
 
-## Drone2Map Folder (drone2map)
-#### Folder too large for github, can be found on boxdrive folder: https://iastate.app.box.com/folder/298784822202
-This folder holds the geodatabases and products of the projects created when ArcGIS Drone2Map was used to compile maps from the UAS imagery. Drone2Map was initially used as it was readily available, OpenDroneMaps was then added in as a method of imagery processing due to it being opensource and more reliable at producing point cloud objects.
+## [Accessing Drone2Map data layers in this repo](documentation/DRONE2MAP.md)
 
 
-## Images Folder (images)
-#### Folder too large for github, can be found on boxdrive folder: https://iastate.app.box.com/folder/298784822202
-This folder contains a series of folders which hold the images captured while in kansas for the region v soil judging contest this fall, as well as a folder labeled "test_images" which contain a subset of the images to allow for faster processing when testing the functionality of the script over running the script with the purpose of producing maps and placing them.
+
+## [Accessing Images in this repo](documentation/IMAGES.md)
 
 ### Test Images Folder (test_images)
 This folder contains a subset of the images for pits 1 and 2 to be used when testing the script, either during the writing process or later when creating the map may not be the most important thing to do.
