@@ -3,7 +3,7 @@ Project Directory Overview
 
 # Install
 
-> File structure for install (some files are very large adn are stored on CyBox)
+> File structure for install (some files are very large are are stored on CyBox)
 
     Final_CRP_4560
     ├───data              # Data sets using in project
