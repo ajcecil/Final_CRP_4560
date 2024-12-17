@@ -4,13 +4,13 @@ Project Directory Overview
 #Install file structure
 
 .
-├───data
-├───drone2map
-├───images
-├───pits
-├───pro_project
-├───scripts
-└───z_other
+├───data              # Data sets using in project
+├───drone2map         # UAS imagery processed using Drone2Map
+├───images            # UAS images
+├───pits              # 3D Models of scanned pits
+├───pro_project       # ArcGIS Pro Project
+├───scripts           # Python Scripts
+└───z_other           # Other files for project
 
 
 
