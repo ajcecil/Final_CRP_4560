@@ -1,6 +1,7 @@
-# Project Directory Overview
-##Installation
-When dowloading this project/repo the file structure should be maintained as:
+Project Directory Overview
+==========================
+
+#Install file structure
 
 .
 ├───data
