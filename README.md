@@ -1,9 +1,11 @@
 Project Directory Overview
 ==========================
 
-#Install file structure
+# Install
 
-    .
+> File structure for install
+
+    Final_CRP_4560
     ├───data              # Data sets using in project
     ├───drone2map         # UAS imagery processed using Drone2Map
     ├───images            # UAS images
