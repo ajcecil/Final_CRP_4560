@@ -3,7 +3,7 @@
 #### [Documentation](documentation/DATA.md)
 
 
-## [Drone2Map](drone2map)
+## [Drone2Map](https://iastate.box.com/s/zgcdb8iqin95ggixd2ulxc8g7kbqhu9d)
 #### [Documentation](documentation/DRONE2MAP.md)
 
 
@@ -14,7 +14,7 @@
 #### [Documentation](documentation/PITS.md)
 
 
-## [ArcGIS Pro Project](pro_project)
+## [ArcGIS Pro Project](https://iastate.box.com/s/1j5ppplwofrh8ldt6kc0emcyglyci1zo)
 #### [Documentation](documentation/PRO_PROJECT.md)
 
 
