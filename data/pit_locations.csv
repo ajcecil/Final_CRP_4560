@@ -1,0 +1,10 @@
+ID,lat,lon,ele,time,magvar,geoidheight,name,cmt,desc,src,sym,type,fix,sat,hdop,vdop,pdop,ageofdgpsdata,dgpsid,Proximity,Temperature,Depth,DisplayMode,Samples,Expiration,CreationTime
+1,38.14533499069512,-98.55459996,689.720337,2024-09-25T14:13:59Z,,,Kansas Soil  Juging Pit 1,Depth in cm,Depth in cm,,"Block, Green",Soil Pit,,,,,,,,,,150.000,SymbolAndName,,,2024-09-25T14:13:59Z
+2,38.52050201967359,-98.68037897,509.410156,2024-09-24T20:09:25Z,,,Kansas Soil Judgig Pit 12,Depth in cm,Depth in cm,,"Block, Green",Soil Pit,,,,,,,,,,150.000,SymbolAndName,,,2024-09-24T20:09:25Z
+3,38.52149502374232,-98.67931003,517.278076,2024-09-24T20:13:24Z,,,Kansas Soil Judging Pit 11,Depth in cm,Depth in cm,,"Block, Green",Soil Pit,,,,,,,,,,150.000,SymbolAndName,,,2024-09-24T20:13:24Z
+4,38.14610302448273,-98.55434096,637.700317,2024-09-25T16:04:34Z,,,Kansas Soil Judging Pit 2,Depth in cm,Depth in cm,,"Block, Green",Soil Pit,,,,,,,,,,150.000,SymbolAndName,,,2024-09-25T16:04:34Z
+5,38.14954304136336,-98.52818004,527.139343,2024-09-25T18:45:01Z,,,Kansas Soil Judging Pit 3,Depth in cm,Depth in cm,,"Block, Green",Soil Pit,,,,,,,,,,150.000,SymbolAndName,,,2024-09-25T18:45:01Z
+6,38.14939199946821,-98.52828003,568.401001,2024-09-25T18:43:21Z,,,Kansas Soil Judging Pit 4,Depth in cm,Depth in cm,,"Block, Green",Soil Pit,,,,,,,,,,150.000,SymbolAndName,,,2024-09-25T18:43:21Z
+7,38.20976701565088,-98.47196597,541.679016,2024-09-23T15:10:52Z,,,Kansas Soil Judging Pit 5,Depth in cm,Depth in cm,,"Block, Green",Soil Pit,,,,,,,,,,36.576,SymbolAndName,,,2024-09-23T15:10:52Z
+8,38.20990397594869,-98.47177302,541.017395,2024-09-23T15:14:37Z,,,Kansas Soil Judging Pit 6,Depth in cm,Depth in cm,,"Block, Green",Soil Pit,,,,,,,,,,39.624,SymbolAndName,,,2024-09-23T15:14:37Z
+9,38.5183740220964,-98.66807803,553.932434,2024-09-24T15:03:14Z,,,Kansas Soil Judging Pit 9,Depth in cm,Depth in cm,,"Block, Green",Soil Pit,,,,,,,,,,150.000,SymbolAndName,,,2024-09-24T15:03:14Z
