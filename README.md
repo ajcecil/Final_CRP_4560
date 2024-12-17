@@ -4,12 +4,12 @@ This folder contains and data tables or information used to produce the maps or 
 
 
 ## Drone2Map Folder (drone2map)
-##### Folder too large for github, can be found on boxdrive folder: https://iastate.app.box.com/folder/298784822202
+#### Folder too large for github, can be found on boxdrive folder: https://iastate.app.box.com/folder/298784822202
 This folder holds the geodatabases and products of the projects created when ArcGIS Drone2Map was used to compile maps from the UAS imagery. Drone2Map was initially used as it was readily available, OpenDroneMaps was then added in as a method of imagery processing due to it being opensource and more reliable at producing point cloud objects.
 
 
 ## Images Folder (images)
-##### Folder too large for github, can be found on boxdrive folder: https://iastate.app.box.com/folder/298784822202
+#### Folder too large for github, can be found on boxdrive folder: https://iastate.app.box.com/folder/298784822202
 This folder contains a series of folders which hold the images captured while in kansas for the region v soil judging contest this fall, as well as a folder labeled "test_images" which contain a subset of the images to allow for faster processing when testing the functionality of the script over running the script with the purpose of producing maps and placing them.
 
 ### Test Images Folder (test_images)
@@ -25,7 +25,7 @@ While ArcGIS pro has multiple 3D object formats which can be imported '.glb' 3D 
 
 
 ## ArcGIS Pro Project Folder (pro_project)
-##### Folder too large for github, can be found on boxdrive folder: https://iastate.app.box.com/folder/298784822202
+#### Folder too large for github, can be found on boxdrive folder: https://iastate.app.box.com/folder/298784822202
 This folder contains the arcgis pro project used in any of the scripts and is where the different layers are set up to be displayed.
 
 ## Scripts Folder (scripts)
@@ -41,7 +41,7 @@ The OpenDroneMap (ODM) script was written after looking into the process of gene
 
 
 ### tk_flow.py
-##### this script can be found in its most up to date version at: https://github.com/ajcecil/tk_flow
+#### this script can be found in its most up to date version at: https://github.com/ajcecil/tk_flow
 This script was produced to generate flowcharts, originally inspired by the flowcharts needed for CRP 4570/5570, Geogames for Civic engagement. The other flowchart tools did not have the features which could optimize production and formating changes to quickly alter format of the entire document. This script was also useful for the production of the flowchart for the poster.
 
 #### method_flowchart.py
