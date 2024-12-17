@@ -7,7 +7,7 @@
 #### [Documentation](documentation/DRONE2MAP.md)
 
 
-## [Images](images)
+## [Images](https://iastate.box.com/s/ycnd95lq5l3zpzyvls7z2dm3nx871nat)
 #### [Documentation](documentation/IMAGES.md)
 
 ## [Scanned Pit Models](pits)
