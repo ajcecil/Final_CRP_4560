@@ -1,6 +1,7 @@
 # Project Directory Overview
 ## Data Folder (data)
 This folder contains and data tables or information used to produce the maps or used to add detail to the produced maps
+[Data in this repo](documentation/DATA.md)
 
 
 ## Drone2Map Folder (drone2map)
