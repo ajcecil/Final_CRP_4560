@@ -1,4 +1,13 @@
 # Project Directory Overview
+##Installation
+When dowloading this project/repo the file structure should be maintained as:
+main
+|--data
+|--drone2map
+|-- images
+
+
+
 ## [Data](data)
 #### [Documentation](documentation/DATA.md)
 
