@@ -1,4 +1,4 @@
-## Scripts Folder (scripts)
+## Scripts Folder
 This folder contains  all of the python scripts written for or used in this project.
 ### 3D_object.py
 This is the main script for this project. This script calls on other scripts in the directory as well as other documents and directories in order to place layers within the ArcGIS Pro project.
