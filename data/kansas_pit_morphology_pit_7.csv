@@ -1,0 +1,7 @@
+﻿lower_depth,dist,grade,type,rmf_conc_pct,rmf_conc_contr,rmf_depl,matrix_conc,hue,value,chroma,cf_mod,class,sand_pct,clay_pct,silt_pct,eff_yn,prefic,master,suffix,no,row_start
+13,C,0,SGR,4,F,-,FM,10YR,3,2,-,S,90,6,4,N,-,A,-,1
+30,G,1 or 2,SBK,5,F,-,FM,10YR,3,2,-,S,90,5,5,N,-,A,-,2
+73,C,2,SBK,7,P,DMX,FM,10YR,6,2,-,S,95,2,3,N,-,B,g,1
+91,A,2,SBK,7,P,DMX,FM,10YR,6,2,-,S,95,2,3,N,-,B,g,2
+104,C,1,SBK,4,P,-,FM,10YR,4,2,-,S,90,4,6,N,-,B,w,-
+110,-,1,SBK,3,P,FED,FM,10YR,4,4,-,LCOS,85,13,2,N,2,B,t,-

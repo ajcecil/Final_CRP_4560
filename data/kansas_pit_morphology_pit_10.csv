@@ -1,0 +1,7 @@
+﻿lower_depth,dist,grade,type,rmf_conc_pct,rmf_conc_contr,rmf_depl,matrix_conc,hue,value,chroma,cf_mod,class,sand_pct,clay_pct,silt_pct,eff_yn,prefic,master,suffix,no
+9,C,2,GR,-,-,-,-,10YR,2,1,-,SICL,7,29,64,N,-,A,p,-
+34,G,2,SBK,5,D,-,FM,10YR,3,1,-,SICL,3,34,63,N,-,B,tn,-
+50,C,2,PR,8,D,-,"FM, K, Y, Z",10YR,3,1,-,SICL,3,37,60,Y,-,B,tkssn yz,1
+69,G,2,PR,4,D,-,"FM, K, Y, Z",10YR,3,1,-,SICL,3,35,62,Y,-,B,tkssn yz,2
+87,G,2,PR,8,D,-,"FM,K, Y",10YR,3,1,-,SIC,3,41,56,Y,-,B,tkssn y,-
+110,-,1,SBK,10,D,-,"FM, Y",10YR,3,1,-,SIC,3,41,56,N,-,B,tssy,-

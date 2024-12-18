@@ -1,0 +1,5 @@
+﻿lower_depth,dist,grade,type,rmf_conc_pct,rmf_conc_contr,rmf_depl,matrix_conc,hue,value,chroma,cf_mod,class,sand_pct,clay_pct,silt_pct,eff_yn,prefic,master,suffix,no
+21,C,1,SBK,-,-,-,-,10YR,5,3,-,S,92,5,3,N,-,A,-,-
+36,G,1,SBK,-,-,-,-,10YR,5,3,-,S,95,3,2,N,-,E,-,-
+76,G,2,SBK,-,-,-,-,10YR,5,3,-,S,95,3,2,N,-,E&B,t,1
+120,-,2,SBK,-,-,-,-,10YR,5,3,-,S,95,3,2,N,-,E&B,t,2
