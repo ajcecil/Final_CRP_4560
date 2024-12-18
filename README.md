@@ -41,6 +41,16 @@ Project Directory Overview
 
 ## [Scripts](scripts)
 #### [Documentation](documentation/SCRIPTS.md)
+### Required python libraries
+- [arcpy](https://pro.arcgis.com/en/pro-app/latest/arcpy/main/arcgis-pro-arcpy-reference.htm)
+- [os](https://docs.python.org/3/library/os.html)
+- [pyodm](https://pyodm.readthedocs.io/en/latest/)
+- [pandas](https://pandas.pydata.org/docs/)
+- [matplotlib](https://matplotlib.org/)
+- [numpy](https://numpy.org/doc/)
+- [subprocess](https://python.readthedocs.io/en/latest/library/subprocess.html?highlight=re)
+- [time](https://docs.python.org/3/library/time.html)
+
 
 
 ## [Other items](z_other)
