@@ -12,6 +12,8 @@ import os
 import ODM
 import pandas as pd
 import matplotlib.pyplot as plt
+import tkinter as tk
+import numpy as np
 #region = Dictionary and variable Establishment
 # Relative Directory Dictionary
 
@@ -86,10 +88,34 @@ main_scene = maps[1]
 #region - Pit Location import
 # Import location data of pits from csv file, data in csv file was collected via handheld gps
 pit_data = pd.read_csv(dir_dic['pit locations'])
-# Adjust pit depths to convert from cm to m and from positive to negative to indicate depth under surface
-pit_depth = (pit_data['Depth'] * -0.01)
-pit_data['Depth'] = pit_depth
+
+for pit_name in pit_data['name']:
+    pit_lower = str(pit_name).lower()
+    pit_lower = pit_lower.replace(" ", "_")
+    pit_morph_path = os.path.normpath(os.path.join(parent_dir, f'data/kansas_pit_morphology_{pit_lower}.csv'))
+    pit_morph = pd.read_csv(pit_morph_path)
+    #Adjust pit depths to convert from cm to m and from positive to negative to indicate depth under surface
+    pit_depth = (pit_morph['lower_depth'].iloc[-1] * -0.01)
+    pit_data.loc[pit_data['name'] == pit_name,'Depth'] = pit_depth
+    
+    # Prep window for plot of horizon data - planning on a viewer for graphics but not sure I am keeping script only graphics
+    # soil_win = tk.Tk()
+    # soil_win.title("Soil Data Viewer")
+    # soil_win.geometry('800x800')
+    
+    colors = plt.get_cmap('Reds')(np.linspace(0.2, 0.7, len(pit_morph['lower_depth'])))
+
+    fig, horizon = plt.subplots()
+    horizon.set_title(pit_name)
+    horizon.pie(pit_morph['lower_depth'], labels = pit_morph.index, colors=colors, autopct='%1.1f%%', radius=3, center=(4, 4), frame=True)
+    # pit_morph['master']
+    horizon.axis('off')
+    plt.show()
+    
 pit_data.to_csv(dir_dic['pit locations corrected'], index = False)
+
+
+
 
 #endregion
 #region - Point Layer and add to Map
@@ -156,9 +182,9 @@ pit_names = {
 
 # Adding 3D object (practice pit #5) to map
 
-lon = pit_data.loc[pit_data['name'] == pit_names['pit 5'], 'lon']
-lat = pit_data.loc[pit_data['name'] == pit_names['pit 5'], 'lat']
-depth = pit_data.loc[pit_data['name'] == pit_names['pit 5'], 'Depth']
+lon = pit_data.loc[pit_data['name'] == 'Pit 5', 'lon']
+lat = pit_data.loc[pit_data['name'] == 'Pit 5', 'lat']
+depth = pit_data.loc[pit_data['name'] == 'Pit 5', 'Depth']
 
 ap.management.Import3DObjects(
     files_and_folders = os.path.normpath(os.path.join(parent_dir,'pits\Kansas_Pit_5.glb')),
@@ -171,6 +197,9 @@ ap.management.Import3DObjects(
     y_is_up = 'Y_IS_UP'
 )
 #endregion
+
+
+
 
 #region - Adding Drone2Map Files to map
 #set up empty group layer
